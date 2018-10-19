@@ -165,7 +165,7 @@ public class Sudoku extends LatinSquare {
 			System.out.println();
 		}
 	}
-
+	//SetRegion
 	private void SetRegion(int n) {
 		for (int i = 0; i < iSize; i++)
 			this.getRegion(n)[i] = i + 1;
