@@ -230,5 +230,14 @@ public class SudokuTest {
 		}
 		
 	}	
+	
+	@Test
+	public void setDiagonalRegion_Test1() {
+		int[][] puzzle = {{0,0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0,0},
+				{0,0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0,0}};
+		Sudoku Seppuku = new Sudoku(puzzle);
+		
+		Seppuku.SetDiagonalRegions();
+	}
 
 }

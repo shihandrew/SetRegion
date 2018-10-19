@@ -253,6 +253,7 @@ public class LatinSquare {
 		return Row;
 	}
 
+
 	/**
 	 * isLatinSquare - return 'true' if: Each row and column doesn't contain
 	 * duplicates If each element in the first row is found in every other row If
